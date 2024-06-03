@@ -1,0 +1,117 @@
+.top-bar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+
+  background-color: white;
+  color: rgb(136, 136, 136);
+  font-family: Yantramanav, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+#ticketsText {
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+
+  border-right: 1px solid black;
+}
+.news-text {
+  font-weight: 500;
+  margin-left: 46px;
+  margin-right: 680px;
+}
+.news-text span{
+  color: #c1c1c1;
+  margin-left: 0;
+}
+.follow-icon-container {
+  height: 22px;
+  width: 195px;
+}
+.follow-icons {
+  margin-right: 29px;
+  height: 110%;
+  width: 100%;
+  object-fit: contain;
+}
+.header-main {
+  display: flex;
+  justify-content: space-between;
+}
+.main-navigation-bar {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: Oswald, sans-serif;
+  background-color: #1e6deb;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 23px;
+  padding-bottom: 24px;
+  padding-left: 180px;
+  padding-right: 210px;
+
+  border: none;
+  color: white;
+}
+.underline-hover {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.underline-hover:hover::after {
+  visibility: visible;
+  width: 100%;
+}
+.sub-navigation-bar {
+  display: flex;
+}
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #1e6deb;
+  height: 70px;
+  width: 70px;
+  padding-right: 10px;
+}
+.search-icon {
+  height: 38%;
+  width: 38%;
+  object-fit: cover;
+  padding-right: 5px;
+}
+.about-button {
+  height: 70px;
+  width: 108px;
+  background-color: rgb(242, 221, 33);
+}
+.about-button-icon {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+}

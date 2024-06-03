@@ -1,0 +1,63 @@
+.main-page-container {
+  width: 1519px;
+  overflow: hidden;
+  position: relative;
+}
+.main-page-background {
+  width: 104%;
+  height: 104%;
+  object-fit: cover;
+  object-position: -28px 0px;
+}
+.main-page-image {
+  position: absolute;
+  bottom: 5px;
+  right: 121px;
+
+  width: 824px;
+  overflow: hidden;
+}
+.main-page-content {
+  position: absolute;
+  top: 303px;
+  left: 142px;
+}
+.main-page-content p {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 12px;
+  margin-bottom: 5px;
+  color: #5E5E5E;
+}
+.main-page-content div {
+  font-size: 60px;
+  font-family: exo;
+  font-weight: bold;
+  line-height: 85px; 
+  color: #0611AA;
+}  
+.home-buy-button {
+  background-color: #0611AA;
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  color: #F1DD22;
+  letter-spacing: 5px;
+
+  border: none;
+  border-radius: 50px;
+  margin-top: 26px;
+  
+  padding-top: 17px;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.home-buy-button:hover {
+  background-color: white;
+  color:#1e6deb;
+}
+main {
+  height: auto;
+}
